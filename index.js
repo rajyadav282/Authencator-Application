@@ -13,7 +13,7 @@ app.post("/signup" , function(req,res){
     const password = req.body.password;
 
     users.push({
-        username : username,
+        username : username, 
         password : password
 })
 
