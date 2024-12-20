@@ -5,7 +5,7 @@ const JWT_SECRET = "msdhonithegoat";
 
 app.use(express.json());
 
-const users = [];     
+const users = [];      
 
 
 app.post("/signup" , function(req,res){
